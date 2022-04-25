@@ -1,7 +1,7 @@
 CREATE DATABASE dbtask
 
 CREATE TABLE task(
-  id SERIAL PRYMARY KEY,
+  id SERIAL PRIMARY KEY,
   title VARCHAR(123) UNIQUE,
   descrition VARCHAR(123)
 );
